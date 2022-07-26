@@ -7,6 +7,4 @@ export interface Product extends Document {
    image: string; 
    price: string; 
    created: string; 
-
-
 }
