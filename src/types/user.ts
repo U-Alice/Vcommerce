@@ -7,9 +7,9 @@ interface Address{
     country: string; 
     zip: number
 }
-export interface User extends Document {
+export interface User {
     name : string;
-    readonly password: string
+    password: string
     seller: boolean;
     address: Address
 }

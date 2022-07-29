@@ -3,7 +3,7 @@ import { User } from 'src/types/user';
 
 @Injectable()
 export class UsersService{
-    private readonly users: User[] = [];
+    private users: User[] = [];
     create(user : User){
         this.users.push(user) 
     }
